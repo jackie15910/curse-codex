@@ -1,0 +1,21 @@
+.index-page {
+  color: white;
+  padding: 20px;
+  font-family: serif;
+}
+
+.index-page ul {
+  list-style: none;
+  padding: 0;
+}
+
+.index-page li {
+  padding: 8px;
+  cursor: pointer;
+  border-bottom: 1px solid gray;
+  transition: background-color 0.3s ease;
+}
+
+.index-page li:hover {
+  background-color: #444;
+}

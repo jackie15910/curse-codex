@@ -6,8 +6,14 @@ import CursePage from './components/CursePage';
 function App() {
   const [unlocked, setUnlocked] = useState(false);
   const [page, setPage] = useState(null);
-  if (!unlocked) return <Cover onUnlock={() => setUnlocked(true)} />;
-  if (!page) return <IndexPage onSelectPage={setPage} />;
+  if (!unlocked) {
+    return <Cover onUnlock={() => setUnlocked(true)} />
+  };
+
+  if (!page) {
+    return <IndexPage onSelectPage={setPage} />
+  };
+
   return <CursePage curse={page} goBack={() => setPage(null)} />;
 }
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import curses from '../data/curses';
+import './IndexPage.css';
 
 function IndexPage({ onSelectPage }) {
   return (
