@@ -1,0 +1,28 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.Cover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Cover img{
+  display: block;       /* scale image to container width */
+  max-height: 99vh;   /* never taller than viewport */
+}
+
+.lock {
+  position: absolute;
+  top: 42%;     /* adjust this to vertically position the lock */
+  right: 1%;   /* adjust this to horizontally position the lock */
+  width: 25%;  /* size of the button */
+  height: 17%;
+  cursor: pointer;
+  z-index: 2; /* Ensure the button is above the image */
+  opacity: 0;
+}
