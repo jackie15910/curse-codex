@@ -1,5 +1,6 @@
 import React from 'react';
 import CurseEntry from './CurseEntry';
+import './CursePage.css';
 
 function CursePage({ curse, goBack }) {
   return (

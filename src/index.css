@@ -1,0 +1,11 @@
+body.parchment {
+  background-image: url('./assets/Parchment.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+body.black {
+  background-color: black;
+  background-image: none;
+}

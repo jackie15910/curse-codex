@@ -1,7 +1,15 @@
 .index-page {
-  color: white;
+  color: rgb(66, 21, 0);
   padding: 20px;
   font-family: serif;
+  
+}
+
+.index-page h1{
+  padding: 20px;
+  font-family: 'Uncial Antiqua', cursive;
+  font-size: 3rem;
+  letter-spacing: 1px;
 }
 
 .index-page ul {
@@ -12,10 +20,11 @@
 .index-page li {
   padding: 8px;
   cursor: pointer;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid rgb(66, 21, 0);
   transition: background-color 0.3s ease;
 }
 
 .index-page li:hover {
-  background-color: #444;
+  font-weight: bold;
+  background-color: #9e5f0057;
 }

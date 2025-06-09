@@ -1,0 +1,15 @@
+.curse-page button{
+    background-color: transparent;
+    border: solid;
+    border-color: transparent;
+    font-family: 'IM Fell English SC', serif;
+    font-size: 2rem;
+    cursor: pointer;
+    color: rgb(66, 21, 0);
+}
+
+.curse-page button:hover {
+  font-weight: bold;
+  border-color: rgb(66, 21, 0);
+  border: solid;
+}

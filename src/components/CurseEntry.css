@@ -1,0 +1,13 @@
+.curse-entry {
+  color: rgb(66, 21, 0);
+}
+
+.curse-entry h2{
+  font-family: 'IM Fell English SC', serif;
+  font-size: 2rem;
+}
+
+.curse-entry p{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2rem;
+}

@@ -9,7 +9,8 @@ function IndexPage({ onSelectPage }) {
       <ul>
         {curses.map((curse, i) => (
           <li key={i} onClick={() => onSelectPage(curse)}>
-            {curse.name}
+          <span className="curse-name">{curse.name}</span>
+          <span className="page-number"> Pg. {i + 1}</span>
           </li>
         ))}
       </ul>

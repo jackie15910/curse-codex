@@ -1,3 +1,5 @@
+import './CurseEntry.css';
+
 function CurseEntry({ curse }) {
   if (!curse) return null;
 

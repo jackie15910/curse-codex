@@ -6,7 +6,7 @@ import lockSound from '../assets/Unlock.mp3';
 function Cover({ onUnlock }) {
   const unlock = () => {
     new Audio(lockSound).play();
-    setTimeout(onUnlock, 800);
+    setTimeout(onUnlock, 800); //Delay to allow sound to finish
   };
 
   return (
